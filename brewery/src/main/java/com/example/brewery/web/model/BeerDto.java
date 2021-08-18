@@ -2,6 +2,9 @@ package com.example.brewery.web.model;
 
 import java.util.UUID;
 
+import lombok.Data;
+
+@Data
 public class BeerDto {
 
 	private UUID id;
