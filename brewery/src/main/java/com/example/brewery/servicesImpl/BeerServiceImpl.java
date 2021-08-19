@@ -1,9 +1,10 @@
-package com.example.brewery.services;
+package com.example.brewery.servicesImpl;
 
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 
+import com.example.brewery.services.BeerService;
 import com.example.brewery.web.model.BeerDto;
 
 @Service
