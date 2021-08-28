@@ -1,0 +1,62 @@
+{
+	"id": "6e934973-cfd5-9f32-8e4f-5dc6fb10e393",
+	"name": "udemy beer project",
+	"description": "",
+	"order": [
+		"01ac1694-8806-3b44-7cef-2b211eb32659",
+		"cbb465e3-e050-b74e-3529-6a59a98fb16c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1630137328596,
+	"owner": "16280285",
+	"public": false,
+	"requests": [
+		{
+			"id": "01ac1694-8806-3b44-7cef-2b211eb32659",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/v1/cust/113bc867-582e-42ae-8802-327c22b023a0",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "6e934973-cfd5-9f32-8e4f-5dc6fb10e393",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get Customer",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1630137347613,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cbb465e3-e050-b74e-3529-6a59a98fb16c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/v1/beer/113bc867-582e-42ae-8802-327c22b023a0",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "6e934973-cfd5-9f32-8e4f-5dc6fb10e393",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get Beer",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1630137373716,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
